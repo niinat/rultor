@@ -25,7 +25,10 @@ TBD... _product statement_
 
 ## What Problem Does Rultor Solve?
 
-TBD... _stakeholders and needs_
+Manually managing pull requests from multiple contributors for deployment and release can be a time consuming and error-prone process. Though other tools exist to automate this process, they have the following issues:
+* **Polluted Merges** - Issues with the build are found after they are merged with the master creating a need for immediate fixes
+* **Multiple builds per Docker** - Creating potential resource conflicts and making it difficult to validate bugs
+* **"Hidden" Triggers** - Builds triggered automatically or outside the issue tracking system reduce visibility and control
 
 ## How Rultor Works?
 
