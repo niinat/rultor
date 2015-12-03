@@ -21,7 +21,13 @@ Default Docker image is [yegor256/rultor](https://registry.hub.docker.com/u/yego
 
 ## What Is Rultor?
 
-TBD... _product statement_
+Rultor is a DevOps team assistant. It automates the routine operations of:
+
+* Merges (maintaining clean builds)
+* Deploys
+* Releases and tagging
+
+Rultor is not a replacement for, but to be used in conjunction with existing continuous integration tools. It relegates every build to its own docker container and allows the user to initiate builds manually from issue tracking repositories. 
 
 ## What Problem Does Rultor Solve?
 
